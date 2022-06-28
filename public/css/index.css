@@ -42,18 +42,20 @@ ul {
 }
 
 .parent {
-  display: flex;
   position: relative;
 }
 
 .kid {
-  display: flex;
-  display: block;
   position: absolute;
 }
 
 .float {
   float: left;
+}
+
+.cloudtop {
+  position: absolute;
+  bottom: 50%;
 }
 
 a:hover {
@@ -290,6 +292,7 @@ a:hover {
   }
 }
 .foot {
-  background-color: #364A68;
+  background-color: #87B6E2;
   width: 100%;
+  height: 100px;
 }
