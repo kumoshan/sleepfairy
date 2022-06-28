@@ -14,6 +14,18 @@ ul {
   max-width: 1000px;
 }
 
+.sheep {
+  margin: auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+.cloud {
+  margin: auto;
+  width: 80%;
+  max-width: 300px;
+}
+
 .textcolor {
   color: #364A68;
 }
@@ -42,11 +54,38 @@ ul {
   text-align: justify;
 }
 
-.img-fluid {
-  width: 100%;
+.margin {
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #364A68;
 }
 
-h2 {
+.margintwo {
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #364A68;
+}
+
+.navmargin {
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #364A68;
+}
+
+.fontsize {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.footerfontsize {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.img-fluid {
   width: 100%;
 }
 
@@ -73,6 +112,7 @@ h2 {
 
 /*換行*/
 .wrap {
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -295,7 +335,14 @@ h2 {
   }
 }
 .foot {
-  background-color: #87B6E2;
+  background-color: #A3B7CB;
   width: 100%;
-  height: 100px;
+}
+
+.top-padding {
+  padding-top: 15px;
+}
+
+.bottom-padding {
+  padding-bottom: 15px;
 }
