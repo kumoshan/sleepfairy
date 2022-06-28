@@ -44,7 +44,10 @@ ul {
 
 .img-fluid {
   width: 100%;
-  display: block;
+}
+
+h2 {
+  width: 100%;
 }
 
 .parent {
