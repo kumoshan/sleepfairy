@@ -5,8 +5,12 @@ ul{list-style-type: none;}
 $primary-color:#364A68;
 $primary-colortwo:#87B6E2;
 
-.containerone{ max-width: 1440px;}
-.containertwo{ max-width: 1000px;}
+
+//內容限制
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;}
 
 // 文字相關樣式
 .textcolor{color:#364A68}
@@ -34,10 +38,14 @@ $primary-colortwo:#87B6E2;
 }
 
 //定位方式
-.parent{position:relative}
+.parent{
+ position:relative;}
 
-.kid{
+.kidcenter{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 //漂浮

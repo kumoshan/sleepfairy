@@ -8,11 +8,9 @@ ul {
   list-style-type: none;
 }
 
-.containerone {
-  max-width: 1440px;
-}
-
-.containertwo {
+.container {
+  margin: auto;
+  width: 90%;
   max-width: 1000px;
 }
 
@@ -53,8 +51,11 @@ ul {
   position: relative;
 }
 
-.kid {
+.kidcenter {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .float {
