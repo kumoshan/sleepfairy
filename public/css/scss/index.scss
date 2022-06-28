@@ -1,0 +1,100 @@
+*{margin: 0%;padding: 0%;}
+ul{list-style-type: none;}
+
+//變數
+$primary-color:#364A68;
+$primary-colortwo:#87B6E2;
+
+// 文字相關樣式
+.textcolor{color:#364A68}
+
+.title{font-size:40px;}
+.insidetext{font-size:30px}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+
+//圖片大小
+.img-fluid{
+    width: 100%;
+    display: block;
+}
+
+//定位方式
+.parent{display:flex;
+position:relative}
+
+.kid{
+    display:flex;
+    display: block;
+    position: absolute;
+}
+
+//漂浮
+.float{float: left;}
+
+//掛載圖片第一頁位置
+
+
+
+
+
+
+
+
+
+
+//滑鼠移入
+a:hover{ background-color:$primary-colortwo;}
+
+// 區塊相關樣式
+.flexcenter{
+    display: flex;
+    justify-content:center;
+    align-items:center;} //置中定位
+/*換行*/
+.wrap{ flex-wrap: wrap;}
+
+//col1-12
+@for $i from 1 through 12 {
+    .col-#{$i}{
+        --num: calc(12 / #{$i});
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+}
+
+//col小於768
+@media (max-width:767.999px){
+    @for $i from 1 through 12 {
+        .col-md-#{$i}{
+            --num: calc(12 / #{$i});
+            width: calc(100% / var(--num) - 30px);
+            margin: 0px 15px 40px 15px;
+        }
+    }
+}
+
+//col大於768
+@media (min-width:768px){
+    @for $i from 1 through 12 {
+        .col-lg-#{$i}{
+            --num: calc(12 / #{$i});
+            width: calc(100% / var(--num) - 30px);
+            margin: 0px 15px 40px 15px;
+        }
+    }
+}
+
+
+
