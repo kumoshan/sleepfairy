@@ -5,9 +5,8 @@ ul{list-style-type: none;}
 $primary-color:#364A68;
 $primary-colortwo:#87B6E2;
 
-.containerone{
-    
-}
+.containerone{ max-width: 1440px;}
+.containertwo{ max-width: 1000px;}
 
 // 文字相關樣式
 .textcolor{color:#364A68}
@@ -45,12 +44,11 @@ $primary-colortwo:#87B6E2;
 .float{float: left;}
 
 //掛載圖片第一頁位置
-.cloudtop{position: absolute;
-bottom:50%;}
 
 
-//滑鼠移入
-a:hover{ background-color:$primary-colortwo;}
+
+
+
 
 // 區塊相關樣式
 .flexcenter{

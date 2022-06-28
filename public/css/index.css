@@ -8,6 +8,14 @@ ul {
   list-style-type: none;
 }
 
+.containerone {
+  max-width: 1440px;
+}
+
+.containertwo {
+  max-width: 1000px;
+}
+
 .textcolor {
   color: #364A68;
 }
@@ -51,15 +59,6 @@ ul {
 
 .float {
   float: left;
-}
-
-.cloudtop {
-  position: absolute;
-  bottom: 50%;
-}
-
-a:hover {
-  background-color: #87B6E2;
 }
 
 .flexcenter {
