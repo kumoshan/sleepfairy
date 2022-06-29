@@ -68,7 +68,7 @@ $primary-colorthree:#A3B7CB;
 }
 .kidctop{
     position: absolute;
-    top: -10%;
+    top: 0%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
@@ -135,11 +135,15 @@ $primary-colorthree:#A3B7CB;
 .bottom-padding{padding-bottom: 60px;}
 .ftbottom-padding{padding-bottom: 15px;}
 
+///第一頁
+/// 大於768
 
-
+//小於768px
 @media (max-width:767.999px){
-    .fontsize{font-size:20px;line-height: 50px;}
+    .fontsize{font-size:18px;line-height: 30px;}
     .cloud{margin: auto;
-        width: 80%;
+        width: 30%;
         max-width: 300px;}}
+    
+    
 
