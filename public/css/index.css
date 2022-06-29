@@ -143,149 +143,149 @@ ul {
 .col-1 {
   --num: calc(12 / 1);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-2 {
   --num: calc(12 / 2);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-3 {
   --num: calc(12 / 3);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-4 {
   --num: calc(12 / 4);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-5 {
   --num: calc(12 / 5);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-6 {
   --num: calc(12 / 6);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-7 {
   --num: calc(12 / 7);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-8 {
   --num: calc(12 / 8);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-9 {
   --num: calc(12 / 9);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-10 {
   --num: calc(12 / 10);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-11 {
   --num: calc(12 / 11);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
 .col-12 {
   --num: calc(12 / 12);
   width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  margin: 0px 15px 20px 15px;
 }
 
-@media (max-width: 767.999px) {
+@media (min-width: 768px) {
   .col-md-1 {
     --num: calc(12 / 1);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-2 {
     --num: calc(12 / 2);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-3 {
     --num: calc(12 / 3);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-4 {
     --num: calc(12 / 4);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-5 {
     --num: calc(12 / 5);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-6 {
     --num: calc(12 / 6);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-7 {
     --num: calc(12 / 7);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-8 {
     --num: calc(12 / 8);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-9 {
     --num: calc(12 / 9);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-10 {
     --num: calc(12 / 10);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-11 {
     --num: calc(12 / 11);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 
   .col-md-12 {
     --num: calc(12 / 12);
     width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    margin: 0px 15px 20px 15px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .col-lg-1 {
     --num: calc(12 / 1);
     width: calc(100% / var(--num) - 30px);
@@ -375,9 +375,14 @@ ul {
   padding-bottom: 15px;
 }
 
-@media (max-width: 767.999px) {
+@media (min-width: 768px) {
+  .flexcenter > .submenu {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
   .fontsize {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
 
@@ -386,4 +391,27 @@ ul {
     width: 30%;
     max-width: 300px;
   }
+
+  .primary-nav {
+    display: block;
+    flex: none;
+    width: auto;
+    text-align: center;
+  }
+
+  li > .col-5 {
+    margin: 0px 0px 10px 0px;
+  }
+}
+.submenu {
+  background-color: #abc9d3;
+  color: #364A68;
+  display: block;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.submenu:active > .primary-nav {
+  display: block;
 }
