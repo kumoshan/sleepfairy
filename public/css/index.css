@@ -81,8 +81,16 @@ ul {
 }
 
 .footerfontsize {
-  font-size: 16px;
-  line-height: 35px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.margin-bottom {
+  margin-bottom: 60px;
+}
+
+.margin-top {
+  margin-top: 40px;
 }
 
 .img-fluid {
@@ -98,6 +106,22 @@ ul {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.kidctop {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+.moonkid {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
 }
 
 .float {
@@ -344,5 +368,22 @@ ul {
 }
 
 .bottom-padding {
+  padding-bottom: 60px;
+}
+
+.ftbottom-padding {
   padding-bottom: 15px;
+}
+
+@media (max-width: 767.999px) {
+  .fontsize {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .cloud {
+    margin: auto;
+    width: 80%;
+    max-width: 300px;
+  }
 }

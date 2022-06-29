@@ -41,44 +41,49 @@ $primary-colorthree:#A3B7CB;
 .text-justify{
     text-align: justify;
 }
-.line-height{}
+
 //字體與外距
 .margin{box-sizing: border-box;margin-top:20px;margin-bottom: 20px;color: #364A68;}
 .margintwo{box-sizing: border-box;margin-top:10px;margin-bottom: 20px;color: #364A68;}
 .navmargin{box-sizing: border-box;margin-top:20px;margin-bottom: 40px;color: #364A68;}
 .fontsize{font-size:20px;line-height: 50px;}
-.footerfontsize{font-size:16px;line-height: 35px;}
-
-
-
+.footerfontsize{font-size:14px;line-height: 25px;}
+//圖片外距
+.margin-bottom{margin-bottom: 60px}
+.margin-top{margin-top: 40px}
 
 //圖片大小
 .img-fluid{
     width: 100%;}
     
-
-
-
-
 //定位方式
 .parent{
  position:relative;}
-
+//定在中間位置
 .kidcenter{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+.kidctop{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+.moonkid{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
 
 //漂浮
 .float{float: left;}
-
-//掛載圖片第一頁位置
-
-
-
-
 
 
 // 區塊相關樣式
@@ -86,6 +91,7 @@ $primary-colorthree:#A3B7CB;
     display: flex;
     justify-content:center;
     align-items:center;} //置中定位
+
 /*換行*/
 .wrap{ display: flex;
     flex-wrap: wrap;}
@@ -126,5 +132,14 @@ $primary-colorthree:#A3B7CB;
     width:100%;
 }
 .top-padding{padding-top: 15px;}
-.bottom-padding{padding-bottom: 15px;}
+.bottom-padding{padding-bottom: 60px;}
+.ftbottom-padding{padding-bottom: 15px;}
+
+
+
+@media (max-width:767.999px){
+    .fontsize{font-size:20px;line-height: 50px;}
+    .cloud{margin: auto;
+        width: 80%;
+        max-width: 300px;}}
 
