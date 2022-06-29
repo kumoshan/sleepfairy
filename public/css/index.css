@@ -412,6 +412,11 @@ ul {
   padding-right: 5px;
 }
 
-.submenu:active > .primary-nav {
+#cell-nav {
+  display: none;
+}
+
+#btn-menu .active {
   display: block;
+  color: #A3B7CB;
 }

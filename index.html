@@ -23,9 +23,9 @@
         </section>
         <div class="flexcenter margintwo  ">
             <img class="cloud" src="public\images\index-icon.svg" alt="">
-            <div class="submenu">menu</div>
+            <a id="btn-menu" href="javascript:;"class="submenu">menu</a>
         </div>
-        <nav >
+        <nav id="cell-nav" >
             <ul>
                 <div class="flexcenter  navmargin primary-nav">
                     <li><a class="col-5 li-testfont" href=""></a>關於我們</li>
@@ -120,9 +120,18 @@
         </div>
     </footer>
 
-    <script>
-        
-    </script>
+       <!-- jquery主程式 -->
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+       <!-- 自定義 -->
+       <script>
+           $('#btn-menu').on('click', function(){
+               $('#cell-menu').toggleClass('active')
+           }) // #btn-box-switch end
+           
+       </script>
+    
+  
 
 </body>
 

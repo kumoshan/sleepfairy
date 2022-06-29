@@ -137,6 +137,7 @@ $primary-colorthree:#A3B7CB;
 
 ///手機板menu
 
+
 ///第一頁
 //大於768px
 @media (min-width:768px){
@@ -155,9 +156,11 @@ $primary-colorthree:#A3B7CB;
     .submenu{
         background-color:rgb(171, 201, 211);color:$primary-color;display: block;line-height: 30px;padding-left:5px;padding-right:5px;
     }
-    //.primary-nav{display:none;}要記得打開//
+    #cell-nav{display:none;}
 
-    .submenu:active>.primary-nav{display:block;}
+    #btn-menu .active {
+        display: block;color: #A3B7CB;
+      }
     
     
     
