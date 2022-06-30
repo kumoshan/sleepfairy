@@ -375,20 +375,6 @@ ul {
   padding-bottom: 15px;
 }
 
-.logone {
-  background-color: #911f1f;
-  width: 50%;
-  padding-bottom: 70%;
-  margin-bottom: 30px;
-}
-
-.logtwo {
-  background-color: #472929;
-  width: 50%;
-  padding-bottom: 70%;
-  margin-bottom: 30px;
-}
-
 @media (max-width: 768px) {
   .fontsize {
     font-size: 16px;
@@ -408,6 +394,15 @@ ul {
     text-align: center;
   }
 
+  .primary-nav > li {
+    color: #364A68;
+    line-height: 30px;
+  }
+
+  .primary-nav > li:hover {
+    background-color: #87B6E2;
+  }
+
   li > .col-5 {
     margin: 0px 0px 10px 0px;
   }
@@ -423,6 +418,10 @@ ul {
 
 #cell-nav {
   display: none;
+}
+
+#cell-nav.active {
+  display: block;
 }
 
 #btn-menu .active {

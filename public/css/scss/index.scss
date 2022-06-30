@@ -136,11 +136,6 @@ $primary-colorthree:#A3B7CB;
 .bottom-padding{padding-bottom: 60px;}
 .ftbottom-padding{padding-bottom: 15px;}
 
-//第二頁log in
-.logone{background-color: rgb(145, 31, 31);width: 50%;padding-bottom: 70%;margin-bottom: 30px;}
-.logtwo{background-color: rgb(71, 41, 41);width: 50%;padding-bottom: 70%;margin-bottom: 30px;}
-
-
 
 
 
@@ -157,12 +152,17 @@ $primary-colorthree:#A3B7CB;
         max-width: 300px;}
 
     .primary-nav{display: block;flex: none;width: auto;text-align: center;}
+    .primary-nav>li{color: #364A68;line-height: 30px;}
+    .primary-nav>li:hover{background-color: #87B6E2;}
+    
     li>.col-5{margin: 0px 0px 10px 0px;}
     }
     .submenu{
         background-color:rgb(171, 201, 211);color:$primary-color;display: block;line-height: 30px;padding-left:5px;padding-right:5px;
     }
+    ///JA控制區域
     #cell-nav{display:none;}
+    #cell-nav.active{display:block;}
 
     #btn-menu .active {
         display: block;color: #A3B7CB;
@@ -175,7 +175,8 @@ $primary-colorthree:#A3B7CB;
         #cell-nav{display:block;}
     }
     
-    
-    
+///login in
+
+
     
 
