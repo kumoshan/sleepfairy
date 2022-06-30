@@ -176,16 +176,33 @@ $primary-colorthree:#A3B7CB;
     }
     
 //login in 頁面
+.log-bigcontent{display: flex;flex-wrap: wrap;}
+.log-in-box{background-color: $primary-colortwo;width: 50%;box-sizing: border-box;
+    padding-bottom: 10%;margin-bottom: 30px;border-radius: 10px;}
 
-.log-in-box{background-color: $primary-colorthree;width: 48%;box-sizing: border-box;
-    padding-bottom: 50%;margin-bottom: 30px;float: left;border-radius: 10px;}
+.log-in-box2{background-color: #364A68;width: 48%;margin-left: 2%;
+    box-sizing: border-box;
+    padding-bottom: 10%;}
+   
+.log-in-box3{background-color:#ffffff;width: 50%;box-sizing: border-box;
+    padding-bottom: 20%;margin-bottom: 30px;border-radius: 15px;}
 
-.log-in-box2{background-color: #364A68;width: 50%;
-    box-sizing: border-box;margin-left: 15px;
-    padding-bottom: 80%;margin-bottom: 30px;float: left;}
+.log-in-box4{background-color:$primary-color;width: 48%;margin-left: 2%;padding-bottom: 0%;
+    box-sizing: border-box;
+   ;margin-bottom: 30px;}
+.log-content{width: 75%;background-color: #ffffff;margin: auto;height:38px;}
+.log-in-box>h3{text-align: center;margin-top: 35px;color: #ffffff;font-size: 25px;}
+.log-in-box>p{margin-left: 12.5%;margin-top: 5px;margin-bottom: 5px;color: #ffffff;font-size: 18px;}
 
-.clearfloat{clear:both}
+.log-in-box>.log-confirm{display:block;background-color:#ffffff;width: 20%;box-sizing: border-box;
+   border-radius: 5px;text-align: center;line-height: 35px;color: #364A68;margin: 20px auto;}
 
+
+
+.log-in-box>.log-nomember{display:block;margin-top: 15px;color: #ffffff;font-size: 16px;color: #ffffff;text-decoration:underline;text-align: center;}
+section.log-bigcontent>.log-pictureparent{position: relative;}
+.log-picture{position: absolute;width: 90%;
+top: 80px;right: 0px;}
 
 
 
