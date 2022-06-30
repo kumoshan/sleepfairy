@@ -438,3 +438,26 @@ ul {
     display: block;
   }
 }
+.log-in-box {
+  background-color: #A3B7CB;
+  width: 48%;
+  box-sizing: border-box;
+  padding-bottom: 50%;
+  margin-bottom: 30px;
+  float: left;
+  border-radius: 10px;
+}
+
+.log-in-box2 {
+  background-color: #364A68;
+  width: 50%;
+  box-sizing: border-box;
+  margin-left: 15px;
+  padding-bottom: 80%;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.clearfloat {
+  clear: both;
+}
