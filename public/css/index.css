@@ -375,11 +375,20 @@ ul {
   padding-bottom: 15px;
 }
 
-@media (min-width: 768px) {
-  .flexcenter > .submenu {
-    display: none;
-  }
+.logone {
+  background-color: #911f1f;
+  width: 50%;
+  padding-bottom: 70%;
+  margin-bottom: 30px;
 }
+
+.logtwo {
+  background-color: #472929;
+  width: 50%;
+  padding-bottom: 70%;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 768px) {
   .fontsize {
     font-size: 16px;
@@ -419,4 +428,14 @@ ul {
 #btn-menu .active {
   display: block;
   color: #A3B7CB;
+}
+
+@media (min-width: 768px) {
+  .flexcenter > .submenu {
+    display: none;
+  }
+
+  #cell-nav {
+    display: block;
+  }
 }
