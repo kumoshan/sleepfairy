@@ -5,65 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sleep Fairy </title>
+    <title>Sleep Fairy-how to sleep </title>
     <link rel="stylesheet" href="public\css\index.css">
 </head>
 
 <body>
+    
     <!---導覽列--->
     <div class="container">
         </section>
         <div class="flexcenter margintwo  ">
             <img class="cloud" src="public\images\index-icon.svg" alt="">
-            <a id="btn-menu" href="javascript:;" class="submenu">menu</a>
+            <a id="btn-menu" href="javascript:;"class="submenu">menu</a>
         </div>
-        <nav id="cell-nav">
+        <nav id="cell-nav" >
             <ul>
                 <div class="flexcenter  navmargin primary-nav">
                     <li><a class="col-5 li-testfont" href=""></a>關於我們</li>
                     <li><a class="col-5" href=""></a>睡眠小知識</li>
                     <li><a class="col-5" href=""></a>會員服務說明</li>
-                    <li><a class="col-5" href=""></a>會員專區</li>
+                    <li><a class="col-5" href="log.html"></a>會員專區</li>
                     <li><a class="col-5" href=""></a>商品一覽</li>
                 </div>
             </ul>
         </nav>
-        <section class="log-bigcontent">
-            <div class="log-in-box">
-                
-                <h3>會員登入</h3>
-                <p>帳號</p>
-                <div class="log-content"></div>
-                <p>密碼</p>
-                <div class="log-content">
-                </div>
-                <a class="log-confirm href=">確認</a>
-                <a class="log-nomember href=">還沒有會員嗎</a>
-        
-            </div>
-            <div class="log-in-box2 log-pictureparent">
-                <img class="img-fluid log-picture log-picture"src="public\images\login-left.svg" alt="">
-            </div>
-            <div class="log-in-box3"> <!---用來做白色空間的-->
 
-            </div>
-            <div class="log-in-box4"><!---用來做藍色空間的-->
-
-            </div>
-
+        <main class="container">
             
-        </section>
-
-
-
         </main>
 
     </div>
 
+
+<!---footer--->
     <footer>
+        <div class="flexcenter margin margin-top">
+            <p>晚安我的朋友</p>
+        </div>
 
 
 
+        <div class="flexcenter margin margin-bottom">
+            <img  src="public\images\index-iconfooter.svg" alt="">
+        </div>
         <div class="parent">
             <img class="kidctop img-fluid" src="public\images\footer.svg" alt="">
             <div class="foot text-center footerfontsize ">
@@ -75,19 +59,18 @@
         </div>
     </footer>
 
-    <!-- jquery主程式 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <!-- 自定義 -->
-    <script>
-        $('#btn-menu').on('click', function () {
-            $('#cell-nav').toggleClass('active')
-        }) // #btn-box-switch end
-
-    </script>
-
-
+       <!-- jquery主程式 -->
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+       <!-- 自定義 -->
+       <script>
+           $('#btn-menu').on('click', function(){
+               $('#cell-nav').toggleClass('active')
+           }) // #btn-box-switch end
+           
+       </script>
+    
+  
 
 </body>
 
