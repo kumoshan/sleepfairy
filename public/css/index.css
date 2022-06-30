@@ -551,3 +551,7 @@ section.log-bigcontent > .register-pictureparent {
   top: 0px;
   left: 0px;
 }
+
+.row {
+  display: flex;
+}
