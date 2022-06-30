@@ -552,6 +552,59 @@ section.log-bigcontent > .register-pictureparent {
   left: 0px;
 }
 
-.row {
+.howsleep-rowone {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.howsleep-rowone > .howsleep-1 {
+  width: 69%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.howsleep-rowone > img {
+  width: 28%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.howsleep-1 > h2 {
+  margin-bottom: 20px;
+  margin-left: 45px;
+  color: #57718b;
+}
+
+.howsleep-1 > p {
+  line-height: 30px;
+}
+
+.howsleep-rowtwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.howsleep-rowtwo img {
+  width: 30%;
+}
+
+.howsleep-rowtwo > .howsleep-2 {
+  width: 70%;
+}
+
+.howsleep-rowthree {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.howsleep-rowthree > .howsleep-3 {
+  width: 100%;
+}
+
+.howsleep-3 > h2 {
+  text-align: right;
 }

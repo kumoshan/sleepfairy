@@ -5,13 +5,13 @@ ul{list-style-type: none;}
 $primary-color:#364A68;
 $primary-colortwo:#87B6E2;
 $primary-colorthree:#A3B7CB;
+$primary-colorfour:#57718b
 
 
 //內容限制
-.container {
-    margin: auto;
+.container{margin: auto;
     width: 90%;
-    max-width: 1000px;}
+    max-width: 1100px;}
 
 //圖片內容限制
 
@@ -215,7 +215,28 @@ section.log-bigcontent>.register-pictureparent{position: relative;}
 top: 0px;left: 0px;}
 
 ////how to sleep
-.row{display: flex;}
+.howsleep-rowone{display: flex;flex-wrap: wrap;justify-content: flex-start;align-items: flex-start;}
+.howsleep-rowone>.howsleep-1{width: 69%;padding-left: 0.5%;padding-right: 0.5%;}
+
+.howsleep-rowone>img{width: 28%;padding-left: 1%;padding-right: 1%;}
+.howsleep-1>h2{margin-bottom: 20px;margin-left: 45px;color:#57718b;}
+
+
+
+
+
+
+.howsleep-rowtwo{display: flex;flex-wrap: wrap;justify-content: flex-start;align-items: flex-start;}
+.howsleep-rowtwo img{width: 30%;}
+.howsleep-rowtwo>.howsleep-2{width: 70%;}
+
+
+.howsleep-rowthree{display: flex;flex-wrap: wrap;}
+.howsleep-rowthree>.howsleep-3{width: 100%;}
+.howsleep-3>h2{text-align: right;}
+
+
+
 
 
 
