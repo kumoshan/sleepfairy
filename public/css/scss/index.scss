@@ -180,14 +180,14 @@ $primary-colorthree:#A3B7CB;
 .log-in-box{background-color: $primary-colortwo;width: 50%;box-sizing: border-box;
     padding-bottom: 10%;margin-bottom: 30px;border-radius: 10px;}
 
-.log-in-box2{background-color: #364A68;width: 48%;margin-left: 2%;
+.log-in-box2{background-color: #364A68;width: 48%;margin-right: 2%;
     box-sizing: border-box;
     padding-bottom: 10%;}
    
 .log-in-box3{background-color:#ffffff;width: 50%;box-sizing: border-box;
     padding-bottom: 20%;margin-bottom: 30px;border-radius: 15px;}
 
-.log-in-box4{background-color:$primary-color;width: 48%;margin-left: 2%;padding-bottom: 0%;
+.log-in-box4{background-color:$primary-color;width: 48%;margin-right: 2%;padding-bottom: 0%;
     box-sizing: border-box;
    ;margin-bottom: 30px;}
 .log-content{width: 75%;background-color: #ffffff;margin: auto;height:38px;}
@@ -203,6 +203,19 @@ $primary-colorthree:#A3B7CB;
 section.log-bigcontent>.log-pictureparent{position: relative;}
 .log-picture{position: absolute;width: 90%;
 top: 80px;right: 0px;}
+
+
+//log register頁面
+.log-register-box1{background-color:$primary-color;width: 48%;margin-right: 2%;padding-bottom: 0%;
+    box-sizing: border-box;
+   ;}
+
+section.log-bigcontent>.register-pictureparent{position: relative;}
+.register-picture{position: absolute;width: 100%;
+top: 0px;left: 0px;}
+
+
+
 
 
 
