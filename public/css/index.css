@@ -11,7 +11,7 @@ ul {
 .container {
   margin: auto;
   width: 90%;
-  max-width: 1000px;
+  max-width: 1140px;
 }
 
 .sheep {
@@ -552,6 +552,13 @@ section.log-bigcontent > .register-pictureparent {
   left: 0px;
 }
 
+.howtosleep-h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #364A68;
+}
+
 .howsleep-rowone {
   display: flex;
   flex-wrap: wrap;
@@ -563,12 +570,14 @@ section.log-bigcontent > .register-pictureparent {
   width: 69%;
   padding-left: 0.5%;
   padding-right: 0.5%;
+  padding-top: 30px;
 }
 
 .howsleep-rowone > img {
   width: 28%;
   padding-left: 1%;
   padding-right: 1%;
+  padding-top: 30px;
 }
 
 .howsleep-1 > h2 {
@@ -578,7 +587,13 @@ section.log-bigcontent > .register-pictureparent {
 }
 
 .howsleep-1 > p {
+  margin-left: 45px;
+  color: #57718b;
   line-height: 30px;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: distribute;
+  padding-right: 30px;
 }
 
 .howsleep-rowtwo {
@@ -590,10 +605,25 @@ section.log-bigcontent > .register-pictureparent {
 
 .howsleep-rowtwo img {
   width: 30%;
+  padding-top: 60px;
 }
 
 .howsleep-rowtwo > .howsleep-2 {
   width: 70%;
+  padding-top: 60px;
+}
+
+.howsleep-2 > h2 {
+  margin-bottom: 20px;
+  margin-left: 70px;
+  color: #57718b;
+}
+
+.howsleep-2 > p {
+  margin-left: 70px;
+  color: #57718b;
+  line-height: 30px;
+  font-size: 20px;
 }
 
 .howsleep-rowthree {
@@ -603,8 +633,46 @@ section.log-bigcontent > .register-pictureparent {
 
 .howsleep-rowthree > .howsleep-3 {
   width: 100%;
+  padding-top: 60px;
 }
 
 .howsleep-3 > h2 {
   text-align: right;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  color: #57718b;
+  padding-right: 30px;
+}
+
+.howtosleep-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #364A68;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.howsleep-row h6 {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #364A68;
+  font-size: 20px;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+
+.howsleep-column p {
+  margin-left: 30px;
+  color: #57718b;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.howsleep-column {
+  display: flex;
+  flex-direction: column;
 }
