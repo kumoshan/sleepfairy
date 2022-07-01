@@ -82,14 +82,14 @@ $primary-colorfour:#57718b;
 }
 ///how to sleep 頁面定位
 .flowerkid{position: absolute;
-    top: -45%;left: 0%;
-z-index: -1;}
+    top: -10%;left: 0%;
+z-index: -1;width: 20%}
 .flowerkid2{position: absolute;
-    top: -50%;left: -5%;
+    top:-30%;left: -3%;
 z-index: -1;width: 20%;}
 
 .flowerkid3{position: absolute;
-    top: -500%;right: 20%;
+    bottom: 0%;right:18%;
 z-index: -1;width: 20%;}
 
 //漂浮
@@ -246,7 +246,7 @@ top: 0px;left: 0px;}
 //第三部分
 
 .howsleep-rowthree{display: flex;flex-wrap: wrap;}
-.howsleep-rowthree>.howsleep-3{width: 100%;padding-top: 60px;}
+.howsleep-rowthree>.howsleep-3{width: 100%;margin-top: 60px;}
 .howsleep-3>h2{text-align: right;margin-bottom: 30px;margin-left: 70px;color:#57718b;padding-right: 30px;}
 .howtosleep-btn{display: block;text-align: center;text-decoration: none;color: #364A68;font-size: 20px;margin-bottom: 20px;font-weight: bolder;}
 .howsleep-column h6{display: block;text-align: center;text-decoration: none;color: #364A68;font-size: 20px;margin-bottom: 18px;margin-top: 20px;}
@@ -271,11 +271,12 @@ top: 0px;left: 0px;}
     display: block;}
 
     // how to sleep 手機版
-@media (min-width:768px){
+@media (min-width:950px){
     .howtosleep-forcell-picture{display: none;}
+    .howsleep-3>h2{text-align: right}
  }
 
-@media (max-width:768px){
+@media (max-width:950px){
     //大標
 .howtosleep-h1{text-align: center;margin-bottom: 5px;font-size: 25px;color:#364A68;}
 //手機板第一部分
@@ -302,8 +303,9 @@ top: 0px;left: 0px;}
 .howsleep-rowthree>.howsleep-3{width: 100%;padding-top: 20px;}
 section>.howsleep-nu-row{display: flex;flex-wrap: wrap;}
 .howsleep-nu-row>.howtosleep-btn{display: block;width: 48%;line-height: 50px;background-color: #87B6E2;border-left: 2px solid $primary-color;}
-.howsleep-nu-row>.howtosleep-btn:nth-child(2){border-right: 2px solid $primary-color}}
-.howsleep-3>h2{text-align: center;margin-bottom: 30px;margin-left: 0px;padding-right: 0px;}
+.howsleep-nu-row>.howtosleep-btn:nth-child(2){border-right: 2px solid $primary-color}
+.howsleep-3>h2{text-align: center;margin-bottom: 30px;margin-left: 0px;padding-right: 0px;}}
+
 
  // how to sleep 手機版
   // how to sleep 手機版
