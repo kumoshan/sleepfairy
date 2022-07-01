@@ -238,8 +238,18 @@ top: 0px;left: 0px;}
 .howsleep-3>h2{text-align: right;margin-bottom: 20px;margin-left: 70px;color:#57718b;padding-right: 30px;}
 .howtosleep-btn{display: block;text-align: center;text-decoration: none;color: #364A68;font-size: 20px;margin-bottom: 20px;font-weight: bolder;}
 .howsleep-row h6{display: block;text-align: center;text-decoration: none;color: #364A68;font-size: 20px;margin-bottom: 18px;margin-top: 20px;}
-.howsleep-column p{margin-left: 30px;color:#57718b;line-height: 25px;font-size: 16px;text-align: justify;}
+.howsleep-column p{margin-left: 30px;color:#57718b;line-height: 30px;font-size: 16px;text-align: center;}
 .howsleep-column{display: flex;flex-direction: column;}
+
+///how to sleep 設定頁面按鈕
+/// 
+
+.howsleeptab-content{
+    display: none;
+}
+.howsleeptab-content.active{
+    display: block;}
+
 
 
 
