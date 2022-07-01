@@ -654,7 +654,7 @@ section.log-bigcontent > .register-pictureparent {
   font-weight: bolder;
 }
 
-.howsleep-row h6 {
+.howsleep-column h6 {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -668,13 +668,27 @@ section.log-bigcontent > .register-pictureparent {
   margin-left: 30px;
   color: #57718b;
   line-height: 30px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 }
 
 .howsleep-column {
   display: flex;
   flex-direction: column;
+}
+
+.howsleep-nu-row {
+  display: flex;
+}
+
+.howsleep-nu-row > a {
+  display: block;
+  width: 25%;
+}
+
+.nu-tab > a.active {
+  background-color: #576e92;
+  color: #ffffff;
 }
 
 .howsleeptab-content {
