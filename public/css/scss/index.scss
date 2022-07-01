@@ -80,7 +80,17 @@ $primary-colorfour:#57718b;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
+///how to sleep 頁面定位
+.flowerkid{position: absolute;
+    top: -45%;left: 0%;
+z-index: -1;}
+.flowerkid2{position: absolute;
+    top: -50%;left: -5%;
+z-index: -1;width: 20%;}
 
+.flowerkid3{position: absolute;
+    top: -500%;right: 20%;
+z-index: -1;width: 20%;}
 
 //漂浮
 .float{float: left;}
@@ -223,15 +233,15 @@ top: 0px;left: 0px;}
 .howsleep-rowone>.howsleep-1{width: 69%;padding-left: 0.5%;padding-right: 0.5%;padding-top: 30px;}
 
 .howsleep-rowone>img{width: 28%;padding-left: 1%;padding-right: 1%;padding-top: 30px;}
-.howsleep-1>h2{margin-bottom: 20px;margin-left: 45px;color:#57718b;}
-.howsleep-1>p{margin-left: 45px;color:#57718b;line-height: 30px;font-size: 20px;text-align:justify;text-justify: distribute;padding-right: 30px;}
+.howsleep-1>h2{margin-bottom: 20px;margin-left: 25%;color:#57718b;}
+.howsleep-1>p{margin-left: 25%;color:#57718b;line-height: 30px;font-size: 20px;text-align:justify;text-justify: distribute;padding-right: 30px;}
 
 //第二部分
 .howsleep-rowtwo{display: flex;flex-wrap: wrap;justify-content: flex-start;align-items: flex-start;}
 .howsleep-rowtwo img{width: 30%;padding-top: 60px;}
 .howsleep-rowtwo>.howsleep-2{width: 70%;padding-top: 60px;}
-.howsleep-2>h2{margin-bottom: 20px;margin-left: 70px;color:#57718b;}
-.howsleep-2>p{margin-left: 70px;color:#57718b;line-height: 30px;font-size: 20px;}
+.howsleep-2>h2{margin-bottom: 20px;margin-left: 25%;color:#57718b;}
+.howsleep-2>p{margin-left: 25%;color:#57718b;line-height: 30px;font-size: 20px;}
 
 //第三部分
 
@@ -240,10 +250,13 @@ top: 0px;left: 0px;}
 .howsleep-3>h2{text-align: right;margin-bottom: 30px;margin-left: 70px;color:#57718b;padding-right: 30px;}
 .howtosleep-btn{display: block;text-align: center;text-decoration: none;color: #364A68;font-size: 20px;margin-bottom: 20px;font-weight: bolder;}
 .howsleep-column h6{display: block;text-align: center;text-decoration: none;color: #364A68;font-size: 20px;margin-bottom: 18px;margin-top: 20px;}
-.howsleep-column p{margin-left: 30px;color:#57718b;line-height: 30px;font-size: 18px;text-align: center;}
+.howsleep-column p{color:#57718b;line-height: 30px;font-size: 18px;text-align: center;}
 .howsleep-column{display: flex;flex-direction: column;}
 .howsleep-nu-row{display: flex;}
-.howsleep-nu-row>a{display: block;width: 25%;}
+.howsleep-nu-row>.howtosleep-btn{display: block;width: 25%;line-height: 50px;background-color: #87B6E2;border-left: 2px solid $primary-color;}
+.howsleep-nu-row>.howtosleep-btn:nth-child(4){border-right: 2px solid $primary-color}
+
+
 
 
 
@@ -256,8 +269,50 @@ top: 0px;left: 0px;}
 }
 .howsleeptab-content.active{
     display: block;}
-///how to sleep 設定絕對定位圖片
 
+    // how to sleep 手機版
+@media (min-width:768px){
+    .howtosleep-forcell-picture{display: none;}
+ }
+
+@media (max-width:768px){
+    //大標
+.howtosleep-h1{text-align: center;margin-bottom: 5px;font-size: 25px;color:#364A68;}
+//手機板第一部分
+.howsleep-1 img{display: none;}
+.howsleep-2 img{display: none;}
+.howsleep-3 img{display: none;}
+.howsleep-rowone>.howsleep-1{width: 100%;padding-left: 0.5%;padding-right: 0.5%;padding-top: 10px;}
+.howsleep-rowone{display: block}
+.howsleep-rowtwo{display:block;}
+.howsleep-rowone>img{width: 100%;;padding-top: 20px;}
+.howsleep-1>h2{margin-bottom: 20px;margin-left:0%;color:#57718b;text-align: center;}
+.howsleep-1>p{margin-left: 5%;;padding-right: 10px;}
+
+//手機板第二部分
+.howsleep-rowtwo{display: block;}
+.howsleep-rowtwo img{display:none;}
+.howsleep-rowtwo>.howsleep-2{width: 100%;padding-top: 30px;}
+.howsleep-2>h2{margin-bottom: 10px;margin-left: 0%;color:#57718b;text-align: center;}
+.howsleep-2>p{margin-left: 5%;color:#57718b;line-height: 30px;font-size: 20px;}
+.howsleep-rowtwo>.howtosleep-forcell-picture{display: block;width: 100%;padding-top: 20px;}
+
+
+//手機第三部分
+.howsleep-rowthree>.howsleep-3{width: 100%;padding-top: 20px;}
+section>.howsleep-nu-row{display: flex;flex-wrap: wrap;}
+.howsleep-nu-row>.howtosleep-btn{display: block;width: 48%;line-height: 50px;background-color: #87B6E2;border-left: 2px solid $primary-color;}
+.howsleep-nu-row>.howtosleep-btn:nth-child(2){border-right: 2px solid $primary-color}}
+.howsleep-3>h2{text-align: center;margin-bottom: 30px;margin-left: 0px;padding-right: 0px;}
+
+ // how to sleep 手機版
+  // how to sleep 手機版
+   // how to sleep 手機版
+    // how to sleep 手機版
+     // how to sleep 手機版
+      // how to sleep 手機版
+       // how to sleep 手機版
+        // how to sleep 手機版end
 
 
 

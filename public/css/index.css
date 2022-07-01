@@ -124,6 +124,29 @@ ul {
   z-index: -1;
 }
 
+.flowerkid {
+  position: absolute;
+  top: -45%;
+  left: 0%;
+  z-index: -1;
+}
+
+.flowerkid2 {
+  position: absolute;
+  top: -50%;
+  left: -5%;
+  z-index: -1;
+  width: 20%;
+}
+
+.flowerkid3 {
+  position: absolute;
+  top: -500%;
+  right: 20%;
+  z-index: -1;
+  width: 20%;
+}
+
 .float {
   float: left;
 }
@@ -582,12 +605,12 @@ section.log-bigcontent > .register-pictureparent {
 
 .howsleep-1 > h2 {
   margin-bottom: 20px;
-  margin-left: 45px;
+  margin-left: 25%;
   color: #57718b;
 }
 
 .howsleep-1 > p {
-  margin-left: 45px;
+  margin-left: 25%;
   color: #57718b;
   line-height: 30px;
   font-size: 20px;
@@ -615,12 +638,12 @@ section.log-bigcontent > .register-pictureparent {
 
 .howsleep-2 > h2 {
   margin-bottom: 20px;
-  margin-left: 70px;
+  margin-left: 25%;
   color: #57718b;
 }
 
 .howsleep-2 > p {
-  margin-left: 70px;
+  margin-left: 25%;
   color: #57718b;
   line-height: 30px;
   font-size: 20px;
@@ -665,7 +688,6 @@ section.log-bigcontent > .register-pictureparent {
 }
 
 .howsleep-column p {
-  margin-left: 30px;
   color: #57718b;
   line-height: 30px;
   font-size: 18px;
@@ -681,9 +703,16 @@ section.log-bigcontent > .register-pictureparent {
   display: flex;
 }
 
-.howsleep-nu-row > a {
+.howsleep-nu-row > .howtosleep-btn {
   display: block;
   width: 25%;
+  line-height: 50px;
+  background-color: #87B6E2;
+  border-left: 2px solid #364A68;
+}
+
+.howsleep-nu-row > .howtosleep-btn:nth-child(4) {
+  border-right: 2px solid #364A68;
 }
 
 .nu-tab > a.active {
@@ -697,4 +726,123 @@ section.log-bigcontent > .register-pictureparent {
 
 .howsleeptab-content.active {
   display: block;
+}
+
+@media (min-width: 768px) {
+  .howtosleep-forcell-picture {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .howtosleep-h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #364A68;
+  }
+
+  .howsleep-1 img {
+    display: none;
+  }
+
+  .howsleep-2 img {
+    display: none;
+  }
+
+  .howsleep-3 img {
+    display: none;
+  }
+
+  .howsleep-rowone > .howsleep-1 {
+    width: 100%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 10px;
+  }
+
+  .howsleep-rowone {
+    display: block;
+  }
+
+  .howsleep-rowtwo {
+    display: block;
+  }
+
+  .howsleep-rowone > img {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .howsleep-1 > h2 {
+    margin-bottom: 20px;
+    margin-left: 0%;
+    color: #57718b;
+    text-align: center;
+  }
+
+  .howsleep-1 > p {
+    margin-left: 5%;
+    padding-right: 10px;
+  }
+
+  .howsleep-rowtwo {
+    display: block;
+  }
+
+  .howsleep-rowtwo img {
+    display: none;
+  }
+
+  .howsleep-rowtwo > .howsleep-2 {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .howsleep-2 > h2 {
+    margin-bottom: 10px;
+    margin-left: 0%;
+    color: #57718b;
+    text-align: center;
+  }
+
+  .howsleep-2 > p {
+    margin-left: 5%;
+    color: #57718b;
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  .howsleep-rowtwo > .howtosleep-forcell-picture {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .howsleep-rowthree > .howsleep-3 {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  section > .howsleep-nu-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .howsleep-nu-row > .howtosleep-btn {
+    display: block;
+    width: 48%;
+    line-height: 50px;
+    background-color: #87B6E2;
+    border-left: 2px solid #364A68;
+  }
+
+  .howsleep-nu-row > .howtosleep-btn:nth-child(2) {
+    border-right: 2px solid #364A68;
+  }
+}
+.howsleep-3 > h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  padding-right: 0px;
 }
