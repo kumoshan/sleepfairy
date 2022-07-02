@@ -17,8 +17,12 @@ $primary-colorfour:#57718b;
 //圖片內容限制
 
 .sheep{margin: auto;
-    width: 80%;
-    max-width: 400px;}
+    width: 70%;
+    max-width: 360px;}
+    .howtosleep-pic{margin: auto;
+        width: 80%;
+        max-width: 400px;
+    }
 .cloud{margin: auto;
     width: 80%;
     max-width: 300px;}
@@ -82,6 +86,14 @@ $primary-colorfour:#57718b;
     left: 90%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
+}
+//首頁定位
+.pickid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
 }
 ///how to sleep 頁面定位
 .flowerkid{position: absolute;
@@ -150,7 +162,7 @@ z-index: -1;width: 20%;}
 .ftbottom-padding{padding-bottom: 15px;}
 
 
-
+///首頁變換圖片////
 
 
 ///手機板menu
