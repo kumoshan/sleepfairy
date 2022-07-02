@@ -21,14 +21,14 @@ a {
 
 .sheep {
   margin: auto;
-  width: 70%;
+  width: 80%;
   max-width: 360px;
 }
 
 .howtosleep-pic {
   margin: auto;
-  width: 80%;
-  max-width: 400px;
+  width: 70%;
+  max-width: 300px;
 }
 
 .cloud {
@@ -141,11 +141,76 @@ a {
   z-index: -1;
 }
 
-.pickid {
+.kidcloudheader1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.kidcloudheader2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.kidcloudheader3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.kidcloudheader4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.kidcloudheader5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.kidcloudheader6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.pickid-text-1 {
+  position: absolute;
+  bottom: 0%;
+  left: 51%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: auto;
+  background-color: #ffffff;
+  color: #57718b;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  padding: 0px 100px;
+  z-index: 2;
+}
+
+.pickid-text-2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: auto;
+  background-color: #ffffff;
+  color: #57718b;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  padding: 0px 100px;
+  z-index: 2;
 }
 
 .flowerkid {
@@ -421,6 +486,14 @@ a {
 
 .ftbottom-padding {
   padding-bottom: 15px;
+}
+
+.ani-op a {
+  opacity: 1;
+}
+
+.ani-op a:hover {
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {

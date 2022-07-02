@@ -17,11 +17,11 @@ $primary-colorfour:#57718b;
 //圖片內容限制
 
 .sheep{margin: auto;
-    width: 70%;
+    width: 80%;
     max-width: 360px;}
     .howtosleep-pic{margin: auto;
-        width: 80%;
-        max-width: 400px;
+        width: 70%;
+        max-width: 300px;
     }
 .cloud{margin: auto;
     width: 80%;
@@ -87,14 +87,76 @@ $primary-colorfour:#57718b;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
-//首頁定位
-.pickid{
+//首頁定位加一些效果----大圖----
+.kidcloudheader1{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    
 }
+.kidcloudheader2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.kidcloudheader3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.kidcloudheader4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.kidcloudheader5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.kidcloudheader6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+//首頁定位加給背景顏色---內容圖片----
+
+.pickid-text-1{
+    position: absolute;
+    bottom: 0%;
+    left: 51%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: auto;
+    background-color: #ffffff;
+    color: #57718b;
+    font-size: 20px;
+    font-weight:bolder ;
+    margin-bottom: 50px;
+    padding: 0px 100px;
+    z-index:2;
+
+}
+.pickid-text-2{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: auto;
+    background-color: #ffffff;
+    color: #57718b;
+    font-size: 20px;
+    font-weight:bolder ;
+    margin-bottom: 10px;
+    padding: 0px 100px;
+    z-index:2
+}
+
+
 ///how to sleep 頁面定位
 .flowerkid{position: absolute;
     top: -10%;left: 0%;
@@ -161,8 +223,17 @@ z-index: -1;width: 20%;}
 .bottom-padding{padding-bottom: 60px;}
 .ftbottom-padding{padding-bottom: 15px;}
 
+///首頁動畫
+.ani-op a{
+    opacity: 1.0;
+  }
+.ani-op a:hover {
+    opacity: 0.5;
+  }
 
-///首頁變換圖片////
+
+
+
 
 
 ///手機板menu

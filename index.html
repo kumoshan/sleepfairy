@@ -12,9 +12,17 @@
 <body>
     <header>
         <div class="parent">
-            <img class=" img-fluid" src="public\images\headerpicture.svg" alt="">
+            <img class=" img-fluid " src="public\images\headerpicture.svg" alt="">
             <div>
                 <img class="kidcenter cloud" src="public\images\index-cloud2.svg" alt="">
+                <img class="kidcloudheader1"  src="public\images\headercloud-1.svg" alt="">
+                <img class="kidcloudheader2" src="public\images\headercloud-1.svg" alt="">
+                <img class="kidcloudheader3" src="public\images\headercloud-1.svg" alt="">
+                <img class="kidcloudheader4" src="public\images\headercloud-1.svg" alt="">
+                <img class="kidcloudheader5" src="public\images\headercloud-1.svg" alt="">
+                <img class="kidcloudheader6"  src="public\images\headercloud-1.svg" alt="">
+                
+                
             </div>
         </div>
     </header>
@@ -23,9 +31,10 @@
         </section>
         <div class="flexcenter margintwo">
             <img class="icon" src="public\images\index-icon.svg" alt="">
-            <a id="btn-menu" href="javascript:;"class="submenu "><img class="iconnextmenu"src="public\images\cell-menu.svg" alt=""></a>
+            <a id="btn-menu" href="javascript:;" class="submenu "><img class="iconnextmenu"
+                    src="public\images\cell-menu.svg" alt=""></a>
         </div>
-        <nav id="cell-nav" >
+        <nav id="cell-nav">
             <ul>
                 <div class="flexcenter  navmargin primary-nav">
                     <li><a class="col-5" href="">關於我們</a></li>
@@ -67,17 +76,27 @@
                         睡眠讓我們足以補足精神<br>也花費了人生中三分之一的時間<br>那要怎麼睡好呢</P>
                 </div>
 
-                <div class="flexcenter margin  parent ">
-                    <img class="img-fluid sheep col-10" src="public\images\index-howtosleep.svg" alt="">
-                    <a href="how to  sleep.html"><img class="img-fluid howtosleep-pic col-11 pickid "src="public\images\index-changepic-1.svg" alt=""></a>
-                    
+                <div class="ani-op">
+                    <div class="flexcenter margin parent ">
+                        <div class="pickid-text-1 pick-text-op "><p>了解睡眠小知識</p></div>
+                        <a href="howtosleep.html"><img class="img-fluid sheep col-11  "
+                            src="public\images\index-howtosleep-1.svg" alt="">
+                        </a>
+
+                    </div>
+
+
                 </div>
                 <div class="text-center margin fontsize">
                     <p>你是不是有什麼煩惱在心中呢<br>需要找一個地方好好的傾訴</p>
                 </div>
+                <div class="ani-op">
+                    <div class="flexcenter margin parent">
+                        <div class="pickid-text-2"><p>了解會員服務說明</p></div>
+                        <a href=""><img class=" img-fluid sheep col-11" src="public\images\index-needsomeone-1.svg"
+                                alt=""></a>
 
-                <div class="flexcenter margin">
-                    <img class="img-fluid sheep col-10" src="public\images\index-needsomeone.svg" alt="">
+                    </div>
                 </div>
                 <div class="text-center margin fontsize">
                     <p>你是不是總是覺得枕頭不舒服<br>臥室空間需要改善呢<br>你找對地方了!</p>
@@ -109,7 +128,7 @@
 
 
         <div class="flexcenter margin margin-bottom">
-            <img  src="public\images\index-iconfooter.svg" alt="">
+            <img src="public\images\index-iconfooter.svg" alt="">
         </div>
         <div class="parent">
             <img class="kidctop img-fluid" src="public\images\footer.svg" alt="">
@@ -122,18 +141,19 @@
         </div>
     </footer>
 
-       <!-- jquery主程式 -->
-       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    
-       <!-- 自定義 -->
-       <script>
-           $('#btn-menu').on('click', function(){
-               $('#cell-nav').toggleClass('active')
-           }) // #btn-box-switch end
-           
-       </script>
-    
-  
+    <!-- jquery主程式 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- 自定義 -->
+    <script>
+        $('#btn-menu').on('click', function () {
+            $('#cell-nav').toggleClass('active')
+        }) // #btn-box-switch end
+
+    </script>
+
+
 
 </body>
 
