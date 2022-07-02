@@ -88,42 +88,71 @@ $primary-colorfour:#57718b;
     z-index: -1;
 }
 //首頁定位加一些效果----大圖----
+.kidcloudheader0{
+    position: absolute;
+    transform: translateX(200%) translateY(0%);
+    width: 20%;   
+}
 .kidcloudheader1{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(50%) translateY(200%);
+    width: 12%;
 }
 .kidcloudheader2{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(700%) translateY(300%);
+    
+    width: 10%;
 }
 .kidcloudheader3{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(15%) translateY(0%);
+    width: 10%;
 }
 .kidcloudheader4{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(550%) translateY(0%);
+    width: 12%;
 }
 .kidcloudheader5{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(120%) translateY(0%);
+    width: 15%;
 }
 .kidcloudheader6{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(720%) translateY(100%);
+    width: 12%;
 }
+.cloudanimation1{
+    position: absolute;
+    animation-name: cloud-one;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;  
+}
+@keyframes cloud-one {
+    0%   { left:0px; top:80px;}
+    50%  { left:0px; top:0px;}
+    100% { left:0px; top:80px;}
+  }
+
+
+  .cloudanimation2{
+    position: absolute;
+    animation-name: cloud-two;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;  
+}
+
+@keyframes cloud-two {
+    0%   { left:0px; top:100px;}
+    50%  { left:0px; top:0px;}
+    100% { left:0px; top:100px;}
+  }
+
+
 //首頁定位加給背景顏色---內容圖片----
 
 .pickid-text-1{
