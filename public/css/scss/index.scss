@@ -1,5 +1,6 @@
-*{margin: 0%;padding: 0%;}
+*{margin: 0%;padding: 0%;text-decoration: none;}
 ul{list-style-type: none;}
+a{color:black;}
 
 //變數
 $primary-color:#364A68;
@@ -21,7 +22,9 @@ $primary-colorfour:#57718b;
 .cloud{margin: auto;
     width: 80%;
     max-width: 300px;}
-
+.icon{margin: auto;
+        width: 60%;
+        max-width: 300px;}
 
 // 文字相關樣式
 .textcolor{color:#364A68}
@@ -152,30 +155,38 @@ z-index: -1;width: 20%;}
 
 ///手機板menu
 ///第一頁
-//大於768px
+//大於768pxubmenu
 
 //小於768px
 @media (max-width:768px){
     .fontsize{font-size:16px;line-height: 30px;}
     .cloud{margin: auto;
         width: 30%;
-        max-width: 300px;}
-
+        max-width: 1400px;}
+    .icon{margin-left: 35%;
+        width: 30%;
+        max-width: 1400px}
+    .iconnextmenu{margin-left: 35%;
+            width: 30%;
+            max-width: 1400px;
+        padding-top: 20px;}
     .primary-nav{display: block;flex: none;width: auto;text-align: center;}
-    .primary-nav>li{color: #364A68;line-height: 30px;}
-    .primary-nav>li:hover{background-color: #87B6E2;}
+    .primary-nav>li{background-color: #87B6E2;padding-bottom: 20px;padding-top:10px;border:2px solid #ffffff;color: #ffffff;}
+    .primary-nav>li:hover{background-color:$primary-colorfour;}
+    .primary-nav a{color: #ffffff;}
     
     li>.col-5{margin: 0px 0px 10px 0px;}
     }
     .submenu{
-        background-color:rgb(171, 201, 211);color:$primary-color;display: block;line-height: 30px;padding-left:5px;padding-right:5px;
+        color:$primary-color;display: block;line-height: 30px;padding-left:5px;padding-right:5px;
     }
+    
     ///JA控制區域
     #cell-nav{display:none;}
     #cell-nav.active{display:block;}
 
     #btn-menu .active {
-        display: block;color: #A3B7CB;
+        display: block;
       }
       
 //大於768px
@@ -183,6 +194,9 @@ z-index: -1;width: 20%;}
         .flexcenter>.submenu{display: none;}
         
         #cell-nav{display:block;}
+        #cell-nav li{display: block;line-height: 30px;}
+        #cell-nav li>a{color: #57718b;font-size: 20px;}
+        #cell-nav li:hover{background-color:$primary-colortwo;color: #ffffff;font-weight: bolder;}
     }
     
 //login in 頁面
