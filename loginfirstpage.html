@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Fairy </title>
+    <link rel="stylesheet" href="public\css\index.css">
+</head>
+
+<body>
+    <!---導覽列--->
+    <div class="sticky stickybackground">
+
+        <div class="flexcenter margintwo">
+            <img class="icon" src="public\images\index-icon.svg" alt="">
+            <a id="btn-menu" href="javascript:;" class="submenu "><img class="iconnextmenu"
+                    src="public\images\cell-menu.svg" alt=""></a>
+        </div>
+        <nav id="cell-nav">
+            <ul>
+                <div class="flexcenter  navmargin primary-nav">
+                    <li><a class="col-5" href="">關於我們</a></li>
+                    <li><a class="col-5" href="howtosleep.html">睡眠小知識</a></li>
+                    <li><a class="col-5" href="">會員服務說明</a></li>
+                    <li><a class="col-5" href="log.html">會員專區</a></li>
+                    <li><a class="col-5" href="">商品一覽</a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <!---導覽列END--->
+    <main class="container">
+        <div class="">
+            <p>向樹洞訴說您的煩惱</p>
+            <img src="public\images\moon.svg" alt="">
+        </div>
+        <section>
+            <div>
+                <div class="">
+                    <img src="public\images\loginfirstpage-whitelogo.svg" alt="">
+                    <p>在樹洞暫時寄放煩惱<br>今天就先睡覺吧</p>
+
+                </div>
+                <div class="">
+                    <a class="" href="#loglistenholetab1"> <img src="public\images\loginfirstpage-listenroundone.svg"
+                            alt=""></a>
+                    <a class="" href="#loglistenholetab2"><img src="public\images\loginfirstpage-holelisten.svg"
+                            alt=""></a>
+                </div>
+            </div>
+        </section>
+        <div>
+            <p>謝謝您願意跟我說</p>
+            <div>
+            <p>主旨</p>
+            <div class=""></div>
+            </div>
+            <p>內容</p>
+            <div class=""></div>
+            <p></p>今天也要睡個好覺喔!
+            <a href=""><p>確認</p></a>
+            <div>
+                <img src="public\images\footerlogotwo.svg" alt="">
+            </div>
+        </div>
+        <div class="">
+            <p>進入您的樹洞裡</p>
+            <img src="public\images\moon.svg" alt="">
+        </div>
+        <section>
+            <div>
+                <a href=""><img src="public\images\loginfirstpage-moongotoyourhole.svg" alt=""></a>
+            </div>
+        </section>
+        <div class="">
+            <p>與心理諮商師談談話</p>
+            <img src="public\images\moon.svg" alt="">
+        </div>
+        <section>
+            <div>
+                <div class="">
+                    <img src="public\images\loginfirstpage-whitelogo.svg" alt="">
+                    <p>聽聽其他人的想法吧</p>
+
+                </div>
+                <div class="">
+                    <a class="" href="#loglistenholetab1"> <img src="public\images\loginfirstpage-talkroundtwo.svg"
+                            alt=""></a>
+                    <a class="" href="#loglistenholetab2"><img src="public\images\loginfirstpage-talkreserve.svg"
+                            alt=""></a>
+                </div>
+            </div>
+        </section>
+        <div>
+            <p>謝謝您願意跟我說</p>
+            <div>
+            <p>傾訴煩惱 剩餘次數剩下1次</p>
+            <div class=""></div>
+            </div>
+            <div>
+            <p>電話號碼</p>
+            <p>電子郵件</p>
+            <p>方便接電話的時段</p>
+            <p>ex:17:00-20:00</p>
+        </div>
+            <div class=""></div>
+            <p></p>會由專人打電話給您呦
+            <a href=""><p>確認</p></a>
+            <div>
+                <img src="public\images\footerlogotwo.svg" alt="">
+            </div>
+        </div>
+    </main>
+
+
+
+    <!--頁尾--->
+    <footer>
+        <div class="parent">
+            <img class="kidctop img-fluid" src="public\images\footer.svg" alt="">
+            <div class="foot text-center footerfontsize ">
+                <p class="top-padding">客服專線：04-57986526</p>
+                <p>地址：台中市北屯區仁心路145號</p>
+                <img src="public\images\footerlogotwo.svg" alt="">
+                <p class="ftbottom-padding">Copyright © sleepFairykumo</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jquery主程式 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- 自定義 -->
+    <script>
+        $('#btn-menu').on('click', function () {
+            $('#cell-nav').toggleClass('active')
+        }) // #btn-box-switch end
+
+    </script>
+
+
+
+</body>
+
+</html>
