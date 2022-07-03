@@ -87,6 +87,17 @@ $primary-colorfour:#57718b;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
+
+///首頁導覽列定位
+.sticky {
+	position: sticky;
+	top: 0;
+    z-index:3
+    }
+.stickybackground{background-color: #ffffff;} 
+
+
+/////
 //首頁定位加一些效果----大圖----
 .kidcloudheader0{
     position: absolute;

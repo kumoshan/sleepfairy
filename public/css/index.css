@@ -141,6 +141,16 @@ a {
   z-index: -1;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.stickybackground {
+  background-color: #ffffff;
+}
+
 .kidcloudheader0 {
   position: absolute;
   transform: translateX(200%) translateY(0%);
