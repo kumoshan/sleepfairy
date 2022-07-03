@@ -52,7 +52,7 @@ $primary-colorfour:#57718b;
 //字體與外距
 .margin{box-sizing: border-box;margin-top:20px;margin-bottom: 20px;color: #364A68;}
 .margintwo{box-sizing: border-box;margin-top:10px;margin-bottom: 20px;color: #364A68;}
-.navmargin{box-sizing: border-box;margin-top:20px;margin-bottom: 40px;color: #364A68;}
+.navmargin{box-sizing: border-box;margin-top:20px;margin-bottom: 30px;color: #364A68;}
 .fontsize{font-size:20px;line-height: 50px;}
 .footerfontsize{font-size:14px;line-height: 25px;}
 //圖片外距
@@ -87,7 +87,15 @@ $primary-colorfour:#57718b;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
-
+////loginpage定位
+.moonkid2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateX(0%) translateY(-30%);
+    z-index: -1;
+    width: 5%;
+}
 ///首頁導覽列定位
 .sticky {
 	position: sticky;
@@ -164,11 +172,7 @@ $primary-colorfour:#57718b;
   }
 
 
-//首頁定位加給背景顏色---內容圖片----
-
-
-
-
+///////////////////////////
 ///how to sleep 頁面定位
 .flowerkid{position: absolute;
     top: -10%;left: 0%;
@@ -235,7 +239,7 @@ z-index: -1;width: 20%;}
 .bottom-padding{padding-bottom: 60px;}
 .ftbottom-padding{padding-bottom: 15px;}
 
-///首頁動畫
+///首頁動畫+logpage動畫
 .ani-op a{
     opacity: 1.0;
   }
@@ -426,7 +430,11 @@ section>.howsleep-nu-row{display: flex;flex-wrap: wrap;}
         // how to sleep 手機版end
 
 
-
+/////////logfirstpage開始//////////
+.log-firstpag-title>p{display: block;font-size:20px;font-weight: bolder;color: #364A68;margin-left: 55px;margin-bottom: 20px;}
+.logfirstpage-displayflex{display: flex;}
+.logfirstpage-gohole{display: flex;justify-content: center;padding: 0px 20px;background-color: #27526C;margin-bottom: 40px;margin-top: 20px;}
+.gohole-p{display: block;font-size:25px;font-weight: bolder;color: #364A68;}
 
 
 

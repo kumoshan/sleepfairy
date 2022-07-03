@@ -88,7 +88,7 @@ a {
 .navmargin {
   box-sizing: border-box;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: #364A68;
 }
 
@@ -139,6 +139,15 @@ a {
   left: 90%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
+}
+
+.moonkid2 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateX(0%) translateY(-30%);
+  z-index: -1;
+  width: 5%;
 }
 
 .sticky {
@@ -1006,4 +1015,32 @@ section.log-bigcontent > .register-pictureparent {
     margin-left: 0px;
     padding-right: 0px;
   }
+}
+.log-firstpag-title > p {
+  display: block;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #364A68;
+  margin-left: 55px;
+  margin-bottom: 20px;
+}
+
+.logfirstpage-displayflex {
+  display: flex;
+}
+
+.logfirstpage-gohole {
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+  background-color: #27526C;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.gohole-p {
+  display: block;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #364A68;
 }
