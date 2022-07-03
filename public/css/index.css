@@ -150,6 +150,13 @@ a {
   width: 5%;
 }
 
+.listen-round {
+  position: absolute;
+  transform: translateX(-30%) translateY(-50%);
+  z-index: -1;
+  width: 30%;
+}
+
 .sticky {
   position: sticky;
   top: 0;
@@ -1018,7 +1025,7 @@ section.log-bigcontent > .register-pictureparent {
 }
 .log-firstpag-title > p {
   display: block;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bolder;
   color: #364A68;
   margin-left: 55px;
@@ -1043,4 +1050,99 @@ section.log-bigcontent > .register-pictureparent {
   font-size: 25px;
   font-weight: bolder;
   color: #364A68;
+}
+
+.logfirstpage-displayflex p {
+  display: block;
+  color: #ffffff;
+  background-color: #57718b;
+  box-sizing: border-box;
+  margin: 20px 20px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.logfirstpage-displayflex .loginpage-1pic {
+  display: block;
+  width: 10%;
+  margin: auto;
+}
+
+.loginchanegpage-1 {
+  background-color: #57718b;
+  box-sizing: border-box;
+  margin: 20px 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.loginchanegpage-1 p {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.loginpage-1content-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loginpage-1content-1-1 {
+  display: flex;
+}
+
+.loginpage-1content-1 > img {
+  width: 5%;
+  padding-left: 10px;
+}
+
+.loginpage-1content-2 {
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.loginpage-1content-3 {
+  box-sizing: border-box;
+  padding: 80px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.loginpage-1content-4 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginpage-1content-4 a {
+  display: block;
+  background-color: #ffffff;
+  width: 9%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 1.5%;
+}
+
+.loginpage-1content-4 a:hover {
+  background-color: #a8bde0;
+  width: 9%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 1.5%;
+}
+
+.loginpage-1content-4 p {
+  color: #27526C;
+}
+
+.loginpage-1content-4 > img {
+  width: 20%;
+  margin-top: 5px;
 }
