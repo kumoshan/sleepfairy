@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Fairy-how to sleep </title>
+    <link rel="stylesheet" href="public\css\index.css">
+</head>
+
+<body>
+
+    <!---導覽列--->
+
+    </section>
+    <div class="flexcenter margintwo  ">
+        <img class="cloud" src="public\images\index-icon.svg" alt="">
+        <a id="btn-menu" href="javascript:;" class="submenu">menu</a>
+    </div>
+    <nav id="cell-nav">
+        <ul>
+            <div class="flexcenter  navmargin primary-nav">
+                <li><a class="col-5" href="">關於我們</a></li>
+                <li><a class="col-5" href="howtosleep.html">睡眠小知識</a></li>
+                <li><a class="col-5" href="">會員服務說明</a></li>
+                <li><a class="col-5" href="log.html">會員專區</a></li>
+                <li><a class="col-5" href="">商品一覽</a></li>
+            </div>
+        </ul>
+    </nav>>
+    <!----aboutus-->
+    <main class="container">
+
+        <!----aboutus---start-->
+<section>
+    <div class="aboutme-background-image">
+<p></p>
+
+    </div>
+</section>
+        <section>
+            <div>
+                <section class=" ">
+                    <div class="">
+                        <h2>品牌夥伴</h2>
+                    </div>
+                </section>
+
+                <div class="aboutme-tab">
+                    <a class="aboutme-btn active" href="#aboutmetab1"><img src="" alt=""></a>
+                    <a class="aboutme-btn" href="#aboutmetab2"><img src="" alt=""></a>
+                    <a class="aboutme-btn" href="#aboutmetab3"><img src="" alt=""></a>
+                </div>
+                <!---品牌創辦者1-->
+                <div id="aboutmetab1" class=" active">
+                    <div>
+                        <p>色胺酸能用來合成血清素，血清素可合成褪黑激素。<br>
+                            褪黑激素又稱為「睡眠荷爾蒙」，能調節生理時鐘幫助睡眠。</p>
+                    </div>
+
+                </div>
+
+                <!---品牌夥伴2-->
+                <div id="aboutmetab2" class="">
+                    <div>
+                        <p>維生素 B2、B6、B12、葉酸（維生素B9）都被與睡眠有密切關係。<br>
+                            其中維生素 B2 能消除煩燥不安，幫助難以入睡者以改善睡眠品質。<br>
+                            B6 同樣可協助人體製造血清素。B12 能改善焦慮易怒的症狀，進而更容易入睡。</p>
+                    </div>
+
+                </div>
+
+                <!---品牌夥伴3-->
+                <div id="aboutmetab3" class="">
+                    <div>
+                        <p>鈣質除了維持骨骼健康，對於睡眠也有影響。<br>
+                            缺乏鈣質會使人易怒、失眠、抽筋、腰酸背痛、易痛經和易掉頭髮。
+                            適時補充鈣質能使大腦壓抑興奮感，幫助入睡</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+    <!---footer--->
+    <footer>
+        <div class="flexcenter margin margin-top">
+            <p>晚安我的朋友</p>
+        </div>
+
+
+
+        <div class="flexcenter margin margin-bottom">
+            <img src="public\images\index-iconfooter.svg" alt="">
+        </div>
+        <div class="parent">
+            <img class="kidctop img-fluid" src="public\images\footer.svg" alt="">
+            <div class="foot text-center footerfontsize ">
+                <p class="top-padding">客服專線：04-57986526</p>
+                <p>地址：台中市北屯區仁心路145號</p>
+                <img src="public\images\footerlogotwo.svg" alt="">
+                <p class="ftbottom-padding">Copyright © sleepFairykumo</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jquery主程式 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- 自定義 -->
+    <script>
+        $('#btn-menu').on('click', function () {
+            $('#cell-nav').toggleClass('active')
+        }) // #btn-box-switch end
+
+        $('.aboutme-tab>a').on('click', function (e) {
+            e.preventDefault()
+            $(this).addClass('active')
+            $(this).siblings().removeClass('active')
+            console.log($(this).attr('href'))
+            $($(this).attr('href')).addClass('active')
+            $($(this).attr('href')).siblings().removeClass('active')
+        })//.nu-tab>a end
+
+    </script>
+
+
+
+</body>
+
+</html>
