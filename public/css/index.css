@@ -1186,9 +1186,12 @@ section.log-bigcontent > .register-pictureparent {
 
 .loginpage-2content-3 {
   box-sizing: border-box;
-  padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
   width: 77%;
   margin-top: 20px;
+}
+
+.loginpage-2content-3 > p {
+  color: #A3B7CB;
 }
