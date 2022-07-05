@@ -588,6 +588,7 @@ a {
 
   .primary-nav a {
     color: #ffffff;
+    width: 100%;
   }
 
   li > .col-5 {

@@ -288,7 +288,7 @@ z-index: -1;width: 20%;}
     .primary-nav{display: block;flex: none;width: auto;text-align: center;}
     .primary-nav>li{background-color: #87B6E2;padding-bottom: 20px;padding-top:10px;border:2px solid #ffffff;color: #ffffff;}
     .primary-nav>li:hover{background-color:$primary-colorfour;}
-    .primary-nav a{color: #ffffff;}
+    .primary-nav a{color: #ffffff;width: 100%;}
     
     li>.col-5{margin: 0px 0px 10px 0px;}
     }
