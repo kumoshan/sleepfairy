@@ -198,7 +198,8 @@ z-index: -1;width: 20%;}
 
 .flowerkid3{position: absolute;
     bottom: 0%;right:18%;
-z-index: -1;width: 20%;}
+;width: 20%;}
+
 
 //漂浮
 .float{float: left;}
@@ -452,23 +453,27 @@ section>.howsleep-nu-row{display: flex;flex-wrap: wrap;}
 .logfirstpage-gohole{display: flex;background-color: #364A68;margin-bottom: 30px;justify-content:center}
 .logfirstpage-gohole img{width:100%;display: block;}
 //第一PART
-.loginfirstpage-h2>h2{margin-bottom: 20px;}
-.talktohole{background-color: #364A68;color: #ffffff;}
+.loginfirstpage-h2>h2{margin-bottom: 20px;color: #576e92;}
+.talktohole{background-color: #576e92;color: #ffffff;}
 .talktohole>img{width: 5%;padding-top: 40px;padding-left: 5px;}
 .talktohole>p{padding-left: 20px;padding-top: 40px; font-size: 22px;}
 .row{display: flex;}
-.talktohole-input-1>input{font-size: 25px;width: 90%;background-color: #ffffff;border: 0; margin: 20px;}
-.talktohole-input-1>p{padding-left:20px;padding-top: 20px;font-size: 22px;}
+.talktohole-input-1>input{font-size: 25px;width: 90%;background-color: #ffffff;border: 0;margin-left: 20px;margin-right: 20px;margin-bottom: 10px}
+.talktohole-input-1>p{padding-left:20px;padding-top: 20px;font-size: 22px;margin-bottom: 10px;}
 .talktohole-input-2>input{font-size: 25px;width: 90%;
-    background-color: #ffffff;border: 0; margin-bottom: 10px;margin-left: 20px;margin-right: 20px;padding-bottom: 200px;}
-.talktohole-input-2>p{padding-left:20px;font-size: 22px;}
-
+    background-color: #ffffff;border: 0; margin-bottom: 20px;margin-left: 20px;margin-right: 20px;padding-bottom: 200px;}
+.talktohole-input-2>p{padding-left:20px;font-size: 22px;margin-bottom: 10px;}
+.talktohole-input-3{display: flex;justify-content:center;align-items: center;}
+.talktohole-input-3>p{color: #364A68;background-color: #ffffff;padding: 5px;margin-bottom: 20px;;width: 20%;text-align: center;}
+.tree-hole-container{background-color: #576e92;font-size: 20px;}
+.talktohole-input-4>input{font-size: 25px;width: 90%;background-color: #ffffff;border: 0;margin-left: 20px;margin-right: 20px;margin-bottom: 10px}
+.talktohole-input-4>p{padding-left:20px;padding-top: 10px;font-size: 22px;margin-bottom: 10px;}
 ////////logfirstpage開始手機板/////////
 ////////logfirstpage開始手機板/////////
 ////////logfirstpage開始手機板/////////
-
-
-
+@media (max-width:480px){.row{display: block;}
+    .row>img{display: none;}
+}
 
 //////////商品一覽//////////
 //////////商品一覽//////////
