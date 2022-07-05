@@ -1054,14 +1054,6 @@ section.log-bigcontent > .register-pictureparent {
   margin-bottom: 20px;
 }
 
-.width-75 {
-  width: 75%;
-}
-
-.width-25 {
-  width: 25%;
-}
-
 .talktohole {
   background-color: #364A68;
   color: #ffffff;
@@ -1085,7 +1077,7 @@ section.log-bigcontent > .register-pictureparent {
 
 .talktohole-input-1 > input {
   font-size: 25px;
-  width: 600px;
+  width: 90%;
   background-color: #ffffff;
   border: 0;
   margin: 20px;
@@ -1099,7 +1091,7 @@ section.log-bigcontent > .register-pictureparent {
 
 .talktohole-input-2 > input {
   font-size: 25px;
-  width: 600px;
+  width: 90%;
   background-color: #ffffff;
   border: 0;
   margin-bottom: 10px;
@@ -1111,18 +1103,4 @@ section.log-bigcontent > .register-pictureparent {
 .talktohole-input-2 > p {
   padding-left: 20px;
   font-size: 22px;
-}
-
-.talkfirstpage-check > p {
-  background-color: #ffffff;
-  color: #364A68;
-  font-size: 25px;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  display: block;
-}
-
-.firstpage-order-1 {
-  order: -1;
 }
