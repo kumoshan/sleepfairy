@@ -16,8 +16,8 @@
     </section>
     <div class="flexcenter margintwo  ">
         <img class="cloud" src="public\images\index-icon.svg" alt="">
-        <a id="btn-menu" href="javascript:;" class="submenu"><img class="iconnextmenu"
-            src="public\images\cell-menu.svg" alt=""></a>
+        <a id="btn-menu" href="javascript:;" class="submenu"><img class="iconnextmenu" src="public\images\cell-menu.svg"
+                alt=""></a>
     </div>
     <nav id="cell-nav">
         <ul>
@@ -29,17 +29,22 @@
                 <li><a class="col-5" href="">商品一覽</a></li>
             </div>
         </ul>
-    </nav>>
+    </nav>
     <!----aboutus-->
     <main class="container">
-
-        <!----aboutus---start-->
-<section>
-    <div class="aboutme-background-image">
-<p></p>
-
-    </div>
-</section>
+        <h2>關於我們</h2>
+        <section class="background-img">
+            <div class="aboutme-1">
+                <p>關於睡眠精靈</p>
+                <span><img src="public/images/footerlogotwo.svg" alt=""></span>
+            </div>
+            <p>在眾多人因為失眠而痛苦、<br>
+                壓力山大的時代裡，<br>
+                我們希望可以讓你有一個紓解的空間，<br>
+                且有專人為您排解憂愁，<br>
+                同時我們提供親自試用的睡眠產品，<br>
+                讓您有個舒服的睡眠環境。</p>
+        </section>
         <section>
             <div>
                 <section class=" ">
@@ -48,40 +53,25 @@
                     </div>
                 </section>
 
-                <div class="aboutme-tab">
-                    <a class="aboutme-btn active" href="#aboutmetab1"><img src="" alt=""></a>
-                    <a class="aboutme-btn" href="#aboutmetab2"><img src="" alt=""></a>
-                    <a class="aboutme-btn" href="#aboutmetab3"><img src="" alt=""></a>
-                </div>
-                <!---品牌創辦者1-->
-                <div id="aboutmetab1" class=" active">
+                <div class=" row">
                     <div>
-                        <p>色胺酸能用來合成血清素，血清素可合成褪黑激素。<br>
-                            褪黑激素又稱為「睡眠荷爾蒙」，能調節生理時鐘幫助睡眠。</p>
+                        <a class=""><img class="img-fluid" src="public/images/aboutme-person1.svg" alt=""></a>
+                        <p>品牌創辦人黑眼圈先生周大仁。<br>
+                            飽受失眠困擾，又不想把煩惱帶給身邊的人的溫柔先生</p>
                     </div>
-
-                </div>
-
-                <!---品牌夥伴2-->
-                <div id="aboutmetab2" class="">
                     <div>
-                        <p>維生素 B2、B6、B12、葉酸（維生素B9）都被與睡眠有密切關係。<br>
-                            其中維生素 B2 能消除煩燥不安，幫助難以入睡者以改善睡眠品質。<br>
-                            B6 同樣可協助人體製造血清素。B12 能改善焦慮易怒的症狀，進而更容易入睡。</p>
+                        <a class=""><img class="img-fluid" src="public/images/aboutme-person2.svg" alt=""></a>
+                        <p>心理諮商師李宙宇<br>
+                            玉山大學心理系教授，希望可以為早上打哈欠的您排解憂愁</p>
                     </div>
-
-                </div>
-
-                <!---品牌夥伴3-->
-                <div id="aboutmetab3" class="">
                     <div>
-                        <p>鈣質除了維持骨骼健康，對於睡眠也有影響。<br>
-                            缺乏鈣質會使人易怒、失眠、抽筋、腰酸背痛、易痛經和易掉頭髮。
-                            適時補充鈣質能使大腦壓抑興奮感，幫助入睡</p>
+                        <a class=""><img class="img-fluid" src="public/images/aboutme-person3.svg" alt=""></a>
+                        <p>心理諮商師林妤<br>
+                            太魯閣大學心理系教授，希望可以幫助到深深黑眼圈的您</p>
                     </div>
-
                 </div>
             </div>
+
 
 
         </section>
@@ -119,16 +109,6 @@
         $('#btn-menu').on('click', function () {
             $('#cell-nav').toggleClass('active')
         }) // #btn-box-switch end
-
-        $('.aboutme-tab>a').on('click', function (e) {
-            e.preventDefault()
-            $(this).addClass('active')
-            $(this).siblings().removeClass('active')
-            console.log($(this).attr('href'))
-            $($(this).attr('href')).addClass('active')
-            $($(this).attr('href')).siblings().removeClass('active')
-        })//.nu-tab>a end
-
     </script>
 
 

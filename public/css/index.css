@@ -1156,3 +1156,6 @@ section.log-bigcontent > .register-pictureparent {
     display: none;
   }
 }
+.container .background-img {
+  background-color: #364A68;
+}
