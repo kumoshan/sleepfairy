@@ -236,7 +236,7 @@ z-index: -1;width: 20%;}
     }
 }
 
-//col大於768
+//col大於1200
 @media (min-width:1200px){
     @for $i from 1 through 12 {
         .col-lg-#{$i}{
