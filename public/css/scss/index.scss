@@ -278,7 +278,7 @@ z-index: -1;width: 20%;}
     .cloud{margin: auto;
         width: 30%;
         max-width: 1400px;}
-    .icon{margin-left: 35%;
+    .icon{margin-left: 50%;
         width: 30%;
         max-width: 1400px}
     .iconnextmenu{margin-left: 35%;
@@ -286,9 +286,9 @@ z-index: -1;width: 20%;}
             max-width: 1400px;
         padding-top: 20px;}
     .primary-nav{display: block;flex: none;width: auto;text-align: center;}
-    .primary-nav>li{background-color: #87B6E2;padding-bottom: 20px;padding-top:10px;border:2px solid #ffffff;color: #ffffff;}
+    .primary-nav>li{background-color: #87B6E2;padding-bottom: 20px;padding-top:10px;border:2px solid #ffffff;}
     .primary-nav>li:hover{background-color:$primary-colorfour;}
-    .primary-nav a{color: #ffffff;width: 100%;}
+    .primary-nav a{display:block;color: #ffffff;width: 100%;}
     
     li>.col-5{margin: 0px 0px 10px 0px;}
     }
@@ -383,8 +383,8 @@ top: 0px;left: 0px;}
 .howsleep-column p{color:#57718b;line-height: 30px;font-size: 18px;text-align: center;}
 .howsleep-column{display: flex;flex-direction: column;}
 .howsleep-nu-row{display: flex;}
-.howsleep-nu-row>.howtosleep-btn{display: block;width: 25%;line-height: 50px;background-color: #87B6E2;border-left: 2px solid $primary-color;}
-.howsleep-nu-row>.howtosleep-btn:nth-child(4){border-right: 2px solid $primary-color}
+.howsleep-nu-row>.howtosleep-btn{box-sizing: border-box;display: block;line-height: 50px;background-color: #87B6E2;border: 2px solid $primary-color;}
+
 
 
 
@@ -430,11 +430,9 @@ top: 0px;left: 0px;}
 
 
 //手機第三部分
-.howsleep-rowthree>.howsleep-3{width: 100%;padding-top: 20px;}
-section>.howsleep-nu-row{display: flex;flex-wrap: wrap;}
-.howsleep-nu-row>.howtosleep-btn{display: block;width: 48%;line-height: 50px;background-color: #87B6E2;border-left: 2px solid $primary-color;}
-.howsleep-nu-row>.howtosleep-btn:nth-child(2){border-right: 2px solid $primary-color}
-.howsleep-3>h2{text-align: center;margin-bottom: 30px;margin-left: 0px;padding-right: 0px;}}
+.howsleep-rowthree>.howsleep-3{padding-top: 20px;}
+.howsleep-nu-row>.howtosleep-btn{box-sizing: border-box;display: block;background-color: #87B6E2;border: 2px solid $primary-color;}
+.howsleep-3>h2{text-align: center;margin-bottom: 30px;}}
 
 
  // how to sleep 手機版

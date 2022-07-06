@@ -555,7 +555,7 @@ a {
   }
 
   .icon {
-    margin-left: 35%;
+    margin-left: 50%;
     width: 30%;
     max-width: 1400px;
   }
@@ -579,7 +579,6 @@ a {
     padding-bottom: 20px;
     padding-top: 10px;
     border: 2px solid #ffffff;
-    color: #ffffff;
   }
 
   .primary-nav > li:hover {
@@ -587,6 +586,7 @@ a {
   }
 
   .primary-nav a {
+    display: block;
     color: #ffffff;
     width: 100%;
   }
@@ -883,15 +883,11 @@ section.log-bigcontent > .register-pictureparent {
 }
 
 .howsleep-nu-row > .howtosleep-btn {
+  box-sizing: border-box;
   display: block;
-  width: 25%;
   line-height: 50px;
   background-color: #87B6E2;
-  border-left: 2px solid #364A68;
-}
-
-.howsleep-nu-row > .howtosleep-btn:nth-child(4) {
-  border-right: 2px solid #364A68;
+  border: 2px solid #364A68;
 }
 
 .nu-tab > a.active {
@@ -1002,32 +998,19 @@ section.log-bigcontent > .register-pictureparent {
   }
 
   .howsleep-rowthree > .howsleep-3 {
-    width: 100%;
     padding-top: 20px;
   }
 
-  section > .howsleep-nu-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .howsleep-nu-row > .howtosleep-btn {
+    box-sizing: border-box;
     display: block;
-    width: 48%;
-    line-height: 50px;
     background-color: #87B6E2;
-    border-left: 2px solid #364A68;
-  }
-
-  .howsleep-nu-row > .howtosleep-btn:nth-child(2) {
-    border-right: 2px solid #364A68;
+    border: 2px solid #364A68;
   }
 
   .howsleep-3 > h2 {
     text-align: center;
     margin-bottom: 30px;
-    margin-left: 0px;
-    padding-right: 0px;
   }
 }
 .gohole-p {
