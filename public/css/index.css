@@ -681,6 +681,8 @@ a {
 }
 
 .log-content {
+  display: block;
+  border: #ffffff;
   width: 75%;
   background-color: #ffffff;
   margin: auto;
@@ -1139,6 +1141,42 @@ section.log-bigcontent > .register-pictureparent {
     display: none;
   }
 }
-.container .background-img {
-  background-color: #364A68;
+.aboutme-h2 {
+  padding: 20px 20px;
+  color: #57718b;
+  text-align: center;
+}
+
+.aboutme-h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: #364A68;
+  padding-bottom: 5px;
+}
+
+.aboutme-p {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #364A68;
+  display: block;
+  border: 2px dashed #57718b;
+}
+
+.background-img {
+  background-color: #87B6E2;
+  border-radius: 5px;
+}
+
+.background-img p {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.background-img img {
+  display: block;
+  margin: auto;
 }
