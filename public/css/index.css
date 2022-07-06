@@ -1131,6 +1131,61 @@ section.log-bigcontent > .register-pictureparent {
     display: none;
   }
 }
+.sleepproduct-h2 {
+  padding: 20px 20px;
+  color: #57718b;
+  text-align: center;
+}
+
+.sleepproduct-h3 {
+  padding-top: 5px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #576e92;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.aboutme-p {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #364A68;
+  display: block;
+  border: 2px dashed #57718b;
+}
+
+.sleepproduct-p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4b5967;
+  line-height: 30px;
+}
+
+.sleepproduct-p2 {
+  text-align: left;
+  font-size: 16px;
+  color: #5d8bba;
+  line-height: 30px;
+}
+
+.sleepproduct-p3 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4b5967;
+  line-height: 30px;
+}
+
+.background-img img {
+  display: block;
+  margin: auto;
+}
+
 .aboutme-h2 {
   padding: 20px 20px;
   color: #57718b;
