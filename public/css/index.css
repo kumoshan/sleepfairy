@@ -1005,132 +1005,6 @@ section.log-bigcontent > .register-pictureparent {
     margin-bottom: 30px;
   }
 }
-.gohole-p {
-  font-size: 30px;
-  margin-bottom: 20px;
-  font-weight: bolder;
-  color: #364A68;
-  margin-top: 40px;
-}
-
-.logfirstpage-gohole {
-  display: flex;
-  background-color: #364A68;
-  margin-bottom: 30px;
-  justify-content: center;
-}
-
-.logfirstpage-gohole img {
-  width: 100%;
-  display: block;
-}
-
-.loginfirstpage-h2 > h2 {
-  margin-bottom: 20px;
-  color: #576e92;
-}
-
-.talktohole {
-  background-color: #576e92;
-  color: #ffffff;
-}
-
-.talktohole > img {
-  width: 5%;
-  padding-top: 40px;
-  padding-left: 5px;
-}
-
-.talktohole > p {
-  padding-left: 20px;
-  padding-top: 40px;
-  font-size: 22px;
-}
-
-.row {
-  display: flex;
-}
-
-.talktohole-input-1 > input {
-  font-size: 25px;
-  width: 90%;
-  background-color: #ffffff;
-  border: 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-}
-
-.talktohole-input-1 > p {
-  padding-left: 20px;
-  padding-top: 20px;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-.talktohole-input-2 > input {
-  font-size: 25px;
-  width: 90%;
-  background-color: #ffffff;
-  border: 0;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-bottom: 200px;
-}
-
-.talktohole-input-2 > p {
-  padding-left: 20px;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-.talktohole-input-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.talktohole-input-3 > p {
-  color: #364A68;
-  background-color: #ffffff;
-  padding: 5px;
-  margin-bottom: 20px;
-  width: 20%;
-  text-align: center;
-}
-
-.tree-hole-container {
-  background-color: #576e92;
-  font-size: 20px;
-}
-
-.talktohole-input-4 > input {
-  font-size: 25px;
-  width: 90%;
-  background-color: #ffffff;
-  border: 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-}
-
-.talktohole-input-4 > p {
-  padding-left: 20px;
-  padding-top: 10px;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 480px) {
-  .row {
-    display: block;
-  }
-
-  .row > img {
-    display: none;
-  }
-}
 .sleepproduct-h2 {
   padding: 20px 20px;
   color: #57718b;
@@ -1271,4 +1145,28 @@ section.log-bigcontent > .register-pictureparent {
 
 .font-weight {
   color: #5d8bba;
+}
+
+.gohole-p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: #364A68;
+  margin-top: 40px;
+}
+
+.logfirstpage-gohole {
+  display: flex;
+  background-color: #364A68;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.logfirstpage-gohole img {
+  width: 100%;
+  display: block;
+}
+
+.first-member-page {
+  background-color: #576e92;
 }
