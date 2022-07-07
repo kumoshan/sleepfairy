@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sleep Fairy-how to sleep </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css">
     <link rel="stylesheet" href="public\css\index.css">
 </head>
 
@@ -45,15 +46,16 @@
                                 src="public/images/loginfirstpage-whitelogo.svg" alt="">
                         </div>
                         <div class="first-member-page-row">
-                            <div  class="sleepmember-h6 sleepmember-margin ">主旨</div>
-                            <input type="text" class=" flex-shrink sleepmember-margin col-11 sleepmember-p" >
+                            <div class="sleepmember-h6 sleepmember-margin ">主旨</div>
+                            <input type="text" class=" flex-shrink sleepmember-margin col-11 sleepmember-p">
                         </div>
                         <div class="first-member-page-row">
-                            <div  class="sleepmember-h6 sleepmember-margin ">內容</div>
-                            <textarea name="" class=" flex-shrink sleepmember-margin col-11 textarea-control sleepmember-p"></textarea>
+                            <div class="sleepmember-h6 sleepmember-margin ">內容</div>
+                            <textarea name=""
+                                class=" flex-shrink sleepmember-margin col-11 textarea-control sleepmember-p"></textarea>
                         </div>
-                        <div  class="first-member-page-rows sleepcheck-parent">
-                            <p class="sleepmember-check sleepmember-margin-2 "> <a href="">確認</a></p>
+                        <div class="first-member-page-rows sleepcheck-parent">
+                            <p class="sleepmember-check sleepmember-margin-2 "> <a href="" data-lightbox="image-1" data-title="listenhole">確認</a></p>
                         </div>
 
                     </div>
@@ -76,29 +78,33 @@
             <h2>與心理諮商師談談話</h2>
             <section class="first-member-page-row wrap">
                 <div class="col-md-3 col-12 ">
-                    <img class="img-fluid sleepmember-margin-0" src="public\images\loginfirstpage-talkreserve.svg" alt="">
+                    <img class="img-fluid sleepmember-margin-0" src="public\images\loginfirstpage-talkreserve.svg"
+                        alt="">
                 </div>
                 <div class="col-md-9 col-12 first-member-page">
                     <div>
                         <div class="first-member-page-row">
-                            <h6 class="sleepmember-h6 sleepmember-margin " >謝謝您願意跟我說</h6>
-                            <img class="img-fluid col-md-1 col-2 sleepmember-h6 sleepmember-margin" src="public/images/loginfirstpage-whitelogo.svg"
-                                alt="">
+                            <h6 class="sleepmember-h6 sleepmember-margin ">謝謝您願意跟我說</h6>
+                            <img class="img-fluid col-md-1 col-2 sleepmember-h6 sleepmember-margin"
+                                src="public/images/loginfirstpage-whitelogo.svg" alt="">
                         </div>
                         <div class="first-member-page-row wrap">
                             <div class="sleepmember-h6 sleepmember-margin">傾訴煩惱</div>
-                            <textarea class="col-12 sleepmember-p flex-shrink sleepmember-margin textarea-control sleepmember-p">
+                            <textarea
+                                class="col-12 sleepmember-p flex-shrink sleepmember-margin textarea-control sleepmember-p">
                         </textarea>
                         </div>
-                        <div class="first-member-page-row">
-                            <div class="sleepmember-h6 sleepmember-margin-4">電話號碼</div>
-                            <input type="text"  placeholder="0963285462" class="flex-shrink sleepmember-margin-4 col-8 sleepmember-p" >
-                            <div  class=" sleepmember-h6 sleepmember-margin-4">方便時段</div>
-                            <input type="text" placeholder="ex:17-00-20:00" class="flex-shrink sleepmember-margin-4 col-8 sleepmember-p">
+                        <div class="first-member-page-row wrap">
+                            <div class="sleepmember-h6 sleepmember-margin-4 col-md-2">電話號碼</div>
+                            <input type="text" placeholder="ex:0963285462"
+                                class="flex-shrink sleepmember-margin-4  col-12 sleepmember-p">
+                            <div class=" sleepmember-h6 sleepmember-margin-4  col-md-2">方便時段</div>
+                            <input type="text" placeholder="ex:17:00-20:00"
+                                class="flex-shrink sleepmember-margin-4  col-12 sleepmember-p">
                         </div>
 
                         <div class="first-member-page-rows sleepcheck-parent">
-                            <p class="sleepmember-check sleepmember-margin-2"> <a href="">確認</a></p>
+                            <p class="sleepmember-check sleepmember-margin-2"> <a href="" data-lightbox="image-1" data-title="talltosomeone">確認</a></p>
                         </div>
 
                     </div>
@@ -132,6 +138,14 @@
     <!-- jquery主程式 -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        })
+    </script>
 
     <!-- 自定義 -->
     <script>
