@@ -485,7 +485,6 @@ top: 0px;left: 0px;}
 .sleepproduct-p{text-align: left; font-size: 20px;font-weight: bold;color: #4b5967;line-height: 30px;}
 .sleepproduct-p2{text-align: left; font-size: 16px;color: #5d8bba;line-height: 30px;}
 .sleepproduct-p3{text-align: left; font-size: 18px;font-weight: bold;color: #4b5967;line-height: 30px;}
-.background-img img{display: block;margin: auto;}
 
 //////////sleepproduct//////////
 //////////sleepproduct//////////
@@ -501,7 +500,8 @@ top: 0px;left: 0px;}
 .aboutme-h2{padding:20px 20px;color: #57718b;text-align: center;}
 .aboutme-h3{padding-top:20px;text-align: center;color: #364A68;padding-bottom: 5px;}
 .aboutme-p{padding: 10px;font-size: 18px;line-height: 30px;color: #364A68;display: block;border:2px dashed #57718b;}
-.background-img{background-color: #87B6E2;border-radius: 5px;}
+//.background-img{background-color: #87B6E2;border-radius: 5px;}
+.background-img{background-image:url(../images/aboutmebackground.svg);}
 .background-img p{padding:20px;text-align: center; font-size: 20px;font-weight: bold;color: #ffffff;}
 .background-img img{display: block;margin: auto;}
 //////////About me//////////
