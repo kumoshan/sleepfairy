@@ -1170,3 +1170,27 @@ section.log-bigcontent > .register-pictureparent {
 .first-member-page {
   background-color: #576e92;
 }
+
+.sleepmember-h6 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.sleepmember-margin {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.block {
+  display: block;
+}
+
+.sleepmember-check {
+  display: block;
+  background-color: #ffffff;
+  width: 30%;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  margin: auto;
+}
