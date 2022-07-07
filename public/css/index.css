@@ -1167,6 +1167,10 @@ section.log-bigcontent > .register-pictureparent {
   display: block;
 }
 
+.first-member-page-row {
+  display: flex;
+}
+
 .first-member-page {
   background-color: #576e92;
 }
@@ -1176,21 +1180,54 @@ section.log-bigcontent > .register-pictureparent {
   font-size: 20px;
 }
 
-.sleepmember-margin {
-  margin-left: 20px;
+.sleepmember-p {
+  font-size: 18px;
+}
+
+.sleepmember-margin-0 {
   margin-top: 20px;
 }
 
-.block {
-  display: block;
+.sleepmember-margin {
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.sleepmember-margin-2 {
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .sleepmember-check {
   display: block;
   background-color: #ffffff;
-  width: 30%;
+  width: 20%;
   text-align: center;
   line-height: 35px;
   border-radius: 5px;
-  margin: auto;
+  font-size: 18px;
+}
+
+.sleepmember-check:hover {
+  background-color: #87B6E2;
+  font-weight: bolder;
+}
+
+.textarea-control {
+  resize: none;
+  height: 200px;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+.sleepcheck-parent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
 }
