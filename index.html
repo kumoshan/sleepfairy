@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sleep Fairy </title>
+    <!-- slick css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- slick theme css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
     <link rel="stylesheet" href="public\css\index.css">
 </head>
 
@@ -74,7 +79,8 @@
             <div class="text-center margin fontsize">
                 <P>在同樣的時間點裡有人睡得香甜<br>
                     卻也有人失眠的睡不著覺<br>時間是魔法師悄悄的偷走了我們的精神<br>
-                    睡眠讓我們足以補足精神<br>也花費了人生中三分之一的時間<br><p style="font-weight:bolder">那要怎麼睡好呢</P>
+                    睡眠讓我們足以補足精神<br>也花費了人生中三分之一的時間<br>
+                <p style="font-weight:bolder">那要怎麼睡好呢</P>
             </div>
 
             <div class="ani-op">
@@ -88,7 +94,8 @@
 
             </div>
             <div class="text-center margin fontsize">
-                <p>你是不是有什麼煩惱在心中呢<br><p style="font-weight:bolder">需要找一個地方好好的傾訴</p>
+                <p>你是不是有什麼煩惱在心中呢<br>
+                <p style="font-weight:bolder">需要找一個地方好好的傾訴</p>
             </div>
             <div class="ani-op">
                 <div class="flexcenter margin parent">
@@ -108,8 +115,19 @@
                         <img class=" img-fluid col-9 moonkid " src="public\images\moon.svg" alt="">
                     </h2>
                 </div>
-                <div class="flexcenter margin">
-                    <a href="sleepproduct .html"><img class="img-fluid sheep col-12" src="public\images\sleep-product-1.svg" alt=""></a>
+                <div class="flexcenter margin banner">
+                    <a href="sleepproduct .html"><img class="img-fluid sheep col-12"
+                            src="public\images\sleep-product-1.svg" alt=""></a>
+                    <a href="sleepproduct .html"><img class="img-fluid sheep col-12"
+                            src="public\images\sleep-product-2.svg" alt=""></a>
+                    <a href="sleepproduct .html"><img class="img-fluid sheep col-12"
+                            src="public\images\sleep-product-3.svg" alt=""></a>
+                    <a href="sleepproduct .html"><img class="img-fluid sheep col-12"
+                            src="public\images\sleep-product-4.svg" alt=""></a>
+                    <a href="sleepproduct .html"><img class="img-fluid sheep col-12"
+                            src="public\images\sleep-product-5.svg" alt=""></a>
+                    <a href="sleepproduct .html"><img class="img-fluid sheep col-12"
+                            src="public\images\sleep-product-6.svg" alt=""></a>
                 </div>
             </section>
         </section>
@@ -150,8 +168,18 @@
         }) // #btn-box-switch end
 
     </script>
+    <!-- slick js -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-
+    <!-- 自定義 js -->
+    <script>
+        $('.banner').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+        });
+    </script>
 
 </body>
 

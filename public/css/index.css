@@ -545,14 +545,14 @@ a {
   }
 
   .icon {
-    margin-left: 50%;
-    width: 30%;
+    margin-left: 10%;
+    width: 80%;
     max-width: 1400px;
   }
 
   .iconnextmenu {
     margin-left: 35%;
-    width: 30%;
+    width: 50%;
     max-width: 1400px;
     padding-top: 20px;
   }
